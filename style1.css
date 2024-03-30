@@ -1,0 +1,206 @@
+.navbar.navbar-expand-lg {
+    background-color: #b2df8d;
+}
+
+.jobs-count {
+    color: #b2df8d;
+}
+.custom-container {
+    margin-top: none; 
+    margin-bottom: 10%;
+}
+.mylogo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.navbar-text.h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    position: relative;
+    top: 10px; 
+}
+.vertical-line {
+    border-left: 1px solid rgb(242, 245, 245); 
+    height: 30px;
+    margin: 10px 10px; 
+}
+.full-screen-img-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.full-screen-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+    margin-bottom: 40px;
+}
+
+
+
+.d-flex .btn {
+    border-radius: 0;
+    border-right: 1px solid #000;
+}
+
+
+
+.d-flex .btn.login {
+    color: #ffffff;
+    border: none;
+
+}
+
+
+.btn.btn-link.custom-button{
+    color: #b2df8d; 
+}
+
+.d-flex .btn.signup {
+    color: #fff;
+   border: none;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    z-index: 1;
+}
+
+.search-box {
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.overlay-content h1 {
+    font-size: 60px;
+}
+
+.search-box-container {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.search-box-container select,
+.search-box-container button {
+    margin-right: 10px;
+}
+
+.search-box-container button {
+    background-color: rgb(32, 109, 32);
+    color: rgb(248, 243, 243);
+    padding: 8px 1px;
+    border: none;
+    white-space: nowrap;
+
+}
+
+.card {
+    position: relative;
+    height: 250px;
+}
+
+.btn-fixed-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card-img-small {
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+}
+
+.card-body {
+    margin-top: 60px;
+}
+
+.job-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: rgb(32, 109, 32);
+    
+}
+.list-unstyled a {
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: rgb(32, 109, 32); 
+    color: #ffffff; 
+    padding-top: 5%; 
+    padding-bottom: 30px;
+}
+
+.footer {
+    position: relative; /* Ensure the footer is positioned relative to its containing element */
+}
+
+.footer {
+    position: relative;
+    /* Add additional styles as needed */
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #333;
+}
+@media screen and (max-width: 600px) {
+    navbar-text.h4{
+        font-size: 36px;
+    }
+}
+@media (min-width: 768px) {
+    /* Custom styles for tablets and larger screens */
+}
+
+@media (min-width: 992px) {
+    /* Custom styles for desktops and larger screens */
+}
+
+@media (min-width: 1200px) {
+    /* Custom styles for extra-large screens */
+}
